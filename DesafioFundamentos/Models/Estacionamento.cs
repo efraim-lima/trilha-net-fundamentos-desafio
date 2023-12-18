@@ -17,7 +17,12 @@ namespace DesafioFundamentos.Models
         public void AdicionarVeiculo()
         {
             // IMPLEMENTADO 
-            // decidi inserir uma validação para saber se o input corresponde a algum modelo de placa real
+            /* 
+            Decidi inserir uma validação para saber se o input corresponde a algum modelo de placa de acordo com as normas BR e/ou Mercosul.
+
+            Também tomei a liberdade de inserir uma lógica que verifica se a placa já existe ou não na lista.
+            */
+            
             string placaDoVeiculo; 
             
             do{
